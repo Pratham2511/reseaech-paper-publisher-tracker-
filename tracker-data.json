@@ -1,0 +1,726 @@
+{
+  "schema_version": 2,
+  "checked_on": "2026-10-06",
+  "source_policy": "Official dates are curated. Community feed candidates do not overwrite official dates.",
+  "options": [
+    {
+      "id": "ieee-sp",
+      "publisher": "IEEE",
+      "name": "IEEE Symposium on Security and Privacy 2027 — second cycle",
+      "kind": "conference",
+      "date": "2026-11-17",
+      "timezone": "23:59:59 · AoE (UTC-12)",
+      "registration": "10 Nov 2026",
+      "registration_label": "Abstract registration",
+      "registration_timezone": "23:59:59 · AoE (UTC-12)",
+      "url": "https://sp2027.ieee-security.org/cfpapers.html",
+      "source": "https://sp2027.ieee-security.org/cfpapers.html",
+      "guidelines": "https://sp2027.ieee-security.org/cfpapers.html",
+      "templates": [
+        {
+          "label": "LaTeX / format link ↗",
+          "url": "https://www.overleaf.com/latex/templates/ieee-demo-template-for-computer-society-conferences/hzzszpqfkqky"
+        },
+        {
+          "label": "IEEEtran ZIP ↗",
+          "url": "https://mirrors.ctan.org/macros/latex/contrib/IEEEtran.zip"
+        }
+      ],
+      "format": "IEEEtran [conference,compsoc] · US Letter · anonymous submission",
+      "length": "13 pages of body text; 18 pages total including references and appendices.",
+      "download_status": "Template ZIP downloaded and integrity checked.",
+      "notes": "US Letter; IEEEtran 1.8 b [conference,compsoc]; anonymous review; Ethics Considerations registration field. Download is maintainer IEEEtran package, whose bare_conf_compsoc.tex matches prescribed options. Cycle 2 submission server is TBA on the checked official CFP; use the CFP to obtain the announced server.",
+      "fit": "Strong security fit; demands substantial novel contribution and rigorous experimental security evaluation.",
+      "domains": [
+        "cybersecurity",
+        "applied-ai"
+      ],
+      "checked_on": "2026-10-06",
+      "status": "fixed",
+      "deadline_time": "23:59:59",
+      "deadline_zone": "AoE (UTC-12)",
+      "registration_date": "2026-11-10",
+      "registration_time": "23:59:59",
+      "registration_zone": "AoE (UTC-12)"
+    },
+    {
+      "id": "ieee-eurosp",
+      "publisher": "IEEE",
+      "name": "IEEE European Symposium on Security and Privacy 2027",
+      "kind": "conference",
+      "date": "2026-12-02",
+      "timezone": "AoE (UTC-12)",
+      "registration": "25 Nov 2026",
+      "registration_label": "Mandatory registration",
+      "registration_timezone": "AoE (UTC-12)",
+      "url": "https://eurosp2027.ieee-security.org/cfp.html",
+      "source": "https://eurosp2027.ieee-security.org/cfp.html",
+      "guidelines": "https://eurosp2027.ieee-security.org/cfp.html",
+      "templates": [
+        {
+          "label": "LaTeX / format link ↗",
+          "url": "https://eurosp2027.ieee-security.org/eurosp2027-template.zip"
+        }
+      ],
+      "format": "Supplied EuroS&P LaTeX template · A4 · anonymous submission",
+      "length": "13 pages of body text; additional references and appendices unlimited.",
+      "download_status": "Template ZIP downloaded and integrity checked.",
+      "notes": "Use supplied A 4 LaTeX template exclusively; options compsoc,conference,a 4 paper,10 pt,times; anonymous review and anonymous artifact links. CFP gives AoE but no explicit clock time.",
+      "fit": "Strong fit for applied security with clear temporal-detection novelty and reproducible evaluation.",
+      "domains": [
+        "cybersecurity",
+        "applied-ai"
+      ],
+      "checked_on": "2026-10-06",
+      "status": "fixed",
+      "deadline_time": null,
+      "deadline_zone": "AoE (UTC-12)",
+      "registration_date": "2026-11-25",
+      "registration_time": null,
+      "registration_zone": "AoE (UTC-12)"
+    },
+    {
+      "id": "ieee-access",
+      "publisher": "IEEE",
+      "name": "IEEE Access — regular research article",
+      "kind": "journal",
+      "date": null,
+      "timezone": "No fixed submission cutoff",
+      "registration": null,
+      "registration_label": "Registration / abstract",
+      "registration_timezone": "",
+      "url": "https://ieeeaccess.ieee.org/authors/submission-guidelines/",
+      "source": "https://ieeeaccess.ieee.org/authors/submission-guidelines/",
+      "guidelines": "https://ieeeaccess.ieee.org/authors/submission-guidelines/",
+      "templates": [
+        {
+          "label": "LaTeX / format link ↗",
+          "url": "https://ieeeaccess.ieee.org/wp-content/uploads/2026/05/ACCESS_latex_template_20260513-1-1.zip"
+        }
+      ],
+      "format": "Access-specific template · two columns, single spacing · editable source + PDF",
+      "length": "Articles over 20 pages excluding supplementary material / appendices need prior editor permission.",
+      "download_status": "Exact May 2026 Access ZIP saved via official browser download; integrity checked.",
+      "notes": "Required Access-specific two-column single-spaced template; editable Word/LaTeX and matching PDF; all-author biographies; 3–10 keywords. Exact May 2026 bundle downloaded through the official browser link after automated HTTP403. Ready ieeeaccess.cls, IEEEtran.cls, access.tex and font assets preserved. Sample specifies a 150–250-word single-paragraph abstract, numbered equation/citation cross references, and alphabetical keywords. Generic IEEE conference style is not an Access substitute.",
+      "fit": "Broad engineering journal; relevant for implemented TGNN EDR pipeline with validated technical results.",
+      "domains": [
+        "ai",
+        "ml",
+        "data-science",
+        "cybersecurity",
+        "applied-ai"
+      ],
+      "checked_on": "2026-10-06",
+      "status": "rolling",
+      "deadline_time": null,
+      "deadline_zone": null,
+      "registration_date": null,
+      "registration_time": null,
+      "registration_zone": null
+    },
+    {
+      "id": "acm-tops",
+      "publisher": "ACM",
+      "name": "ACM Transactions on Privacy and Security (TOPS)",
+      "kind": "journal",
+      "date": null,
+      "timezone": "No fixed submission cutoff",
+      "registration": null,
+      "registration_label": "Registration / abstract",
+      "registration_timezone": "",
+      "url": "https://dl.acm.org/journal/tops/author-guidelines",
+      "source": "https://dl.acm.org/journal/tops/author-guidelines",
+      "guidelines": "https://dl.acm.org/journal/tops/author-guidelines",
+      "templates": [
+        {
+          "label": "LaTeX / format link ↗",
+          "url": "https://www.acm.org/publications/authors/submissions"
+        },
+        {
+          "label": "acmart source ZIP ↗",
+          "url": "https://mirrors.ctan.org/macros/latex/contrib/acmart.zip"
+        }
+      ],
+      "format": "ACM authoring style · acmart source package and submission guidance",
+      "length": "35 pages maximum in ACM style, including all content.",
+      "download_status": "Maintainer source ZIP saved; .dtx/.ins require extraction before use.",
+      "notes": "ACM authoring template; acmart source distribution downloaded from registered CTAN mirror. It contains .dtx/.ins and sample PDFs, not ready extracted .cls/.tex files. Need source extraction before using. Journal guide verified in browser; no dated regular-submission deadline.",
+      "fit": "Strong fit when detection approach offers practical significance and substantial security contribution.",
+      "domains": [
+        "cybersecurity",
+        "applied-ai"
+      ],
+      "checked_on": "2026-10-06",
+      "status": "rolling",
+      "deadline_time": null,
+      "deadline_zone": null,
+      "registration_date": null,
+      "registration_time": null,
+      "registration_zone": null
+    },
+    {
+      "id": "elsevier",
+      "publisher": "Elsevier",
+      "name": "Computers & Security",
+      "kind": "journal",
+      "date": null,
+      "timezone": "No fixed submission cutoff",
+      "registration": null,
+      "registration_label": "Registration / abstract",
+      "registration_timezone": "",
+      "url": "https://www.sciencedirect.com/journal/computers-and-security/publish/guide-for-authors",
+      "source": "https://www.sciencedirect.com/journal/computers-and-security/publish/guide-for-authors",
+      "guidelines": "https://www.sciencedirect.com/journal/computers-and-security/publish/guide-for-authors",
+      "templates": [
+        {
+          "label": "LaTeX / format link ↗",
+          "url": "https://www.elsevier.com/researcher/author/policies-and-guidelines/latex-instructions"
+        },
+        {
+          "label": "elsarticle ZIP ↗",
+          "url": "https://assets.ctfassets.net/o78em1y1w4i4/4MpsJHO0MOJ2xZuwGTAbOZ/7bc64af36477c5d6cfce335a1f872363/elsarticle.zip"
+        }
+      ],
+      "format": "Editable Word or LaTeX · elsarticle / CAS guidance · abstract ≤250 words",
+      "length": "12,000 words maximum, including abstract, references and appendices.",
+      "download_status": "Template ZIP downloaded and integrity checked.",
+      "notes": "Single-anonymized; editable .tex/.docx sources. Word single column; LaTeX may use two columns. Abstract≤250 words,5–10 keywords. Highlights encouraged:3–5 bullets≤85 characters each. Official generic elsarticle and CAS bundles saved; confirm chosen class in journal workflow. The elsarticle archive includes sample .tex files but distributes its class as .dtx/.ins requiring extraction; CAS has ready .cls files.",
+      "fit": "One of the closest fits for APT detection, EDR deployment, and reproducible security-model evaluation.",
+      "domains": [
+        "cybersecurity",
+        "applied-ai"
+      ],
+      "checked_on": "2026-10-06",
+      "status": "rolling",
+      "deadline_time": null,
+      "deadline_zone": null,
+      "registration_date": null,
+      "registration_time": null,
+      "registration_zone": null
+    },
+    {
+      "id": "springer",
+      "publisher": "Springer Nature",
+      "name": "International Journal of Information Security",
+      "kind": "journal",
+      "date": null,
+      "timezone": "No fixed submission cutoff",
+      "registration": null,
+      "registration_label": "Registration / abstract",
+      "registration_timezone": "",
+      "url": "https://link.springer.com/journal/10207/submission-guidelines",
+      "source": "https://link.springer.com/journal/10207/submission-guidelines",
+      "guidelines": "https://link.springer.com/journal/10207/submission-guidelines",
+      "templates": [
+        {
+          "label": "LaTeX / format link ↗",
+          "url": "https://media.springer.com/full/springer-instructions-for-authors-assets/zip/1633537_svjour3-Latex-package.zip"
+        }
+      ],
+      "format": "svjour3 with twocolumn · abstract 150–250 words · 4–6 keywords",
+      "length": "No general page or word cap stated in the checked author guide.",
+      "download_status": "Template ZIP downloaded and integrity checked.",
+      "notes": "Single-blind; prescribed svjour 3 macro package with twocolumn option (generic sample defaults to one column and must be changed). Source/style/figures and compiled PDF. Abstract 150–250 words;4–6 keywords; declarations.",
+      "fit": "Direct information-security fit for mathematical method, threat model, and experimentally supported temporal graph detection.",
+      "domains": [
+        "cybersecurity",
+        "applied-ai"
+      ],
+      "checked_on": "2026-10-06",
+      "status": "rolling",
+      "deadline_time": null,
+      "deadline_zone": null,
+      "registration_date": null,
+      "registration_time": null,
+      "registration_zone": null
+    },
+    {
+      "id": "usenix",
+      "publisher": "USENIX",
+      "name": "USENIX Security '27 — cycle 2",
+      "kind": "conference",
+      "date": "2027-01-26",
+      "timezone": "AoE (UTC-12)",
+      "registration": "19 Jan 2027",
+      "registration_label": "Mandatory registration",
+      "registration_timezone": "AoE (UTC-12)",
+      "url": "https://www.usenix.org/conference/usenixsecurity27/call-for-papers",
+      "source": "https://www.usenix.org/conference/usenixsecurity27/call-for-papers",
+      "guidelines": "https://www.usenix.org/conference/usenixsecurity27/call-for-papers",
+      "templates": [
+        {
+          "label": "LaTeX / format link ↗",
+          "url": "https://www.usenix.org/sites/default/files/usenixsecurity2027_latex_templates.zip"
+        }
+      ],
+      "format": "Security ’27 template · US Letter, two columns, 10 pt Times / 12 pt leading",
+      "length": "13 body pages at submission; final paper at most 20 pages total.",
+      "download_status": "Template ZIP downloaded and integrity checked.",
+      "notes": "Official Security 2027 template: US Letter,two columns,10 ptTimes on 12 ptleading;7×9 inch text block. Anonymous review. CFP says AoE without explicit clock time. December 2026 notification/shepherd deadlines are not new-paper submissions. Cycle 2 direct submission-server link was not published in checked CFP; use official CFP for activation.",
+      "fit": "Strong fit for systems security with compelling real-world evaluation, ablations and anonymous reproducibility artifacts.",
+      "domains": [
+        "cybersecurity",
+        "applied-ai"
+      ],
+      "checked_on": "2026-10-06",
+      "status": "fixed",
+      "deadline_time": null,
+      "deadline_zone": "AoE (UTC-12)",
+      "registration_date": "2027-01-19",
+      "registration_time": null,
+      "registration_zone": "AoE (UTC-12)"
+    },
+    {
+      "id": "oxford",
+      "publisher": "Oxford University Press",
+      "name": "Journal of Cybersecurity",
+      "kind": "journal",
+      "date": null,
+      "timezone": "No fixed submission cutoff",
+      "registration": null,
+      "registration_label": "Registration / abstract",
+      "registration_timezone": "",
+      "url": "https://academic.oup.com/cybersecurity/pages/General_Instructions",
+      "source": "https://academic.oup.com/cybersecurity/pages/General_Instructions",
+      "guidelines": "https://academic.oup.com/cybersecurity/pages/General_Instructions",
+      "templates": [
+        {
+          "label": "LaTeX / format link ↗",
+          "url": "https://academic.oup.com/journals/pages/authors/preparing_your_manuscript"
+        },
+        {
+          "label": "OUP ZIP ↗",
+          "url": "https://mirrors.ctan.org/macros/latex/contrib/oup-authoring-template.zip"
+        }
+      ],
+      "format": "One-column research submission · Oxford template · abstract ≤350 words",
+      "length": "Research articles up to 15,000 words. Interdisciplinary scope must fit.",
+      "download_status": "Template ZIP downloaded and integrity checked.",
+      "notes": "Single-anonymized; one-column research submission; abstract≤350 words; numbered Oxford SciMed references. General OUP template downloaded from its maintainer CTAN package; journal-specific requirements override generic page-design options.",
+      "fit": "Conditional fit: journal requires interdisciplinary approach, broad societal implications, or meaningful human/organizational challenges. A purely algorithmic TGNN paper may be out of scope.",
+      "domains": [
+        "cybersecurity",
+        "applied-ai"
+      ],
+      "checked_on": "2026-10-06",
+      "status": "rolling",
+      "deadline_time": null,
+      "deadline_zone": null,
+      "registration_date": null,
+      "registration_time": null,
+      "registration_zone": null
+    },
+    {
+      "id": "taylor-francis",
+      "publisher": "Taylor & Francis",
+      "name": "Information Security Journal: A Global Perspective",
+      "kind": "journal",
+      "date": null,
+      "timezone": "No fixed submission cutoff",
+      "registration": null,
+      "registration_label": "Registration / abstract",
+      "registration_timezone": "",
+      "url": "https://www.tandfonline.com/action/authorSubmission?show=instructions&journalCode=uiss20",
+      "source": "https://www.tandfonline.com/action/authorSubmission?show=instructions&journalCode=uiss20",
+      "guidelines": "https://www.tandfonline.com/action/authorSubmission?show=instructions&journalCode=uiss20",
+      "templates": [
+        {
+          "label": "LaTeX / format link ↗",
+          "url": "https://files.taylorandfrancis.com/InteractAPALaTeX.zip"
+        }
+      ],
+      "format": "interact + APA LaTeX template or Word · 150-word unstructured abstract",
+      "length": "No word limit stated in the checked instructions. Include a word count.",
+      "download_status": "Template ZIP downloaded and integrity checked.",
+      "notes": "Single-anonymous review; Word or LaTeX. Journal-specific interact+APA template saved, plus generic Word template. Unstructured abstract 150 words; separate figures; source ZIP plus PDF. Guide verified in browser.",
+      "fit": "Suitable for applied security architecture, testing, incident response and practitioner-facing TGNN system evaluation.",
+      "domains": [
+        "cybersecurity",
+        "applied-ai"
+      ],
+      "checked_on": "2026-10-06",
+      "status": "rolling",
+      "deadline_time": null,
+      "deadline_zone": null,
+      "registration_date": null,
+      "registration_time": null,
+      "registration_zone": null
+    },
+    {
+      "id": "wiley",
+      "publisher": "Wiley",
+      "name": "International Journal of Intelligent Systems",
+      "kind": "journal",
+      "date": null,
+      "timezone": "No fixed submission cutoff",
+      "registration": null,
+      "registration_label": "Registration / abstract",
+      "registration_timezone": "",
+      "url": "https://onlinelibrary.wiley.com/page/journal/ijis/homepage/author-guidelines",
+      "source": "https://onlinelibrary.wiley.com/page/journal/ijis/homepage/author-guidelines",
+      "guidelines": "https://onlinelibrary.wiley.com/page/journal/ijis/homepage/author-guidelines",
+      "templates": [
+        {
+          "label": "LaTeX / format link ↗",
+          "url": "https://authors.wiley.com/author-resources/Journal-Authors/Prepare/latex-template.html"
+        },
+        {
+          "label": "WileyDesign ZIP ↗",
+          "url": "https://authors.wiley.com/asset/WileyDesign.zip"
+        }
+      ],
+      "format": "Free-format initial submission · editable source · generic WileyDesign template",
+      "length": "No general page or word cap stated in the checked author guide.",
+      "download_status": "Template ZIP downloaded and integrity checked.",
+      "notes": "Single-anonymized; free-format initial submission. Editable Word or LaTeX+PDF+supporting files; line numbers recommended; abstract≤300 words; data/funding/conflict statements. Publisher-recommended current WileyDesign template saved; USG class sample is generic, not compulsory journal layout.",
+      "fit": "Machine-learning fit if manuscript emphasizes temporal graph architecture and rigorous intelligent-systems analysis.",
+      "domains": [
+        "ai",
+        "ml",
+        "data-science"
+      ],
+      "checked_on": "2026-10-06",
+      "status": "rolling",
+      "deadline_time": null,
+      "deadline_zone": null,
+      "registration_date": null,
+      "registration_time": null,
+      "registration_zone": null
+    },
+    {
+      "id": "mdpi-computers",
+      "publisher": "MDPI",
+      "name": "Computers — Emerging Trends in Network Security and Applied Cryptography",
+      "kind": "special_issue",
+      "date": "2026-11-30",
+      "timezone": "Clock / timezone not published",
+      "registration": null,
+      "registration_label": "Registration / abstract",
+      "registration_timezone": "",
+      "url": "https://www.mdpi.com/journal/computers/special_issues/R9Y1RP8V4D",
+      "source": "https://www.mdpi.com/journal/computers/special_issues/R9Y1RP8V4D",
+      "guidelines": "https://www.mdpi.com/journal/computers/instructions",
+      "templates": [
+        {
+          "label": "LaTeX / format link ↗",
+          "url": "https://res.mdpi.com/data/MDPI_template_ACS.zip?v=20260911"
+        }
+      ],
+      "format": "MDPI ACS template · initial free format allowed · abstract about 200 words",
+      "length": "No general page or word cap stated in checked Computers instructions.",
+      "download_status": "Template ZIP downloaded and integrity checked.",
+      "notes": "Single-anonymized; initial free format accepted, required research/back-matter sections. Abstract~200 words;3–10 keywords; numbered ACS references. CurrentSept 11,2026 MDPI class+template saved. Exact clock/timezone not stated; do not assume AoE. Regular Computers articles can be submitted on a rolling basis;30 November is this special issue deadline only.",
+      "fit": "Relevant network-security collection; check whether the TGNN contribution matches its security/privacy focus.",
+      "domains": [
+        "cybersecurity",
+        "applied-ai"
+      ],
+      "checked_on": "2026-10-06",
+      "status": "fixed",
+      "deadline_time": null,
+      "deadline_zone": null,
+      "registration_date": null,
+      "registration_time": null,
+      "registration_zone": null
+    },
+    {
+      "id": "mdpi-electronics",
+      "publisher": "MDPI",
+      "name": "Electronics — Machine Learning Applications and Cybersecurity",
+      "kind": "special_issue",
+      "date": "2026-10-31",
+      "timezone": "Clock / timezone not published",
+      "registration": null,
+      "registration_label": "Registration / abstract",
+      "registration_timezone": "",
+      "url": "https://www.mdpi.com/journal/electronics/special_issues/6FJMM06AW4",
+      "source": "https://www.mdpi.com/journal/electronics/special_issues/6FJMM06AW4",
+      "guidelines": "https://www.mdpi.com/journal/electronics/instructions",
+      "templates": [
+        {
+          "label": "LaTeX / format link ↗",
+          "url": "https://res.mdpi.com/data/MDPI_template_ACS.zip?v=20260911"
+        }
+      ],
+      "format": "MDPI ACS template · initial free format allowed · abstract about 200 words",
+      "length": "No maximum manuscript length; the text must remain concise and comprehensive.",
+      "download_status": "Template ZIP downloaded and integrity checked.",
+      "notes": "Single-anonymized review; initial free format accepted with required front/main/back-matter sections. No maximum manuscript length. Abstract about 200 words maximum, one paragraph; 3–10 keywords. Numbered ACS references; editable equations; complete LaTeX source/images in ZIP, total files at most120MB. Required author contributions, funding, data availability and conflict statements. Official current MDPI ACS template family verified on journal guide. Branded template restricted to submission/peer review rather than preprint posting. Special-issue clock/timezone not published.",
+      "fit": "Direct special-issue fit for using machine learning in cybersecurity; closest verified October deadline.",
+      "domains": [
+        "ai",
+        "ml",
+        "cybersecurity",
+        "applied-ai"
+      ],
+      "checked_on": "2026-10-06",
+      "status": "fixed",
+      "deadline_time": null,
+      "deadline_zone": null,
+      "registration_date": null,
+      "registration_time": null,
+      "registration_zone": null
+    },
+    {
+      "id": "arxiv",
+      "publisher": "arXiv",
+      "name": "arXiv — cs.CR / cs.LG preprint",
+      "kind": "preprint",
+      "date": null,
+      "timezone": "No fixed submission cutoff",
+      "registration": null,
+      "registration_label": "Registration / abstract",
+      "registration_timezone": "",
+      "url": "https://info.arxiv.org/help/submit/index.html",
+      "source": "https://info.arxiv.org/help/submit/index.html",
+      "guidelines": "https://info.arxiv.org/help/submit/index.html",
+      "templates": [
+        {
+          "label": "TeX submission guide ↗",
+          "url": "https://info.arxiv.org/help/submit_tex.html"
+        }
+      ],
+      "format": "No mandatory template · complete TeX source and dependencies when written in TeX",
+      "length": "No universal page limit. Moderation is not peer review.",
+      "download_status": "Official submission guidance saved; no universal template exists.",
+      "notes": "There is no official arXiv manuscript template. Submit full TeX source and dependencies if prepared in TeX; original PDF from non-TeX workflows permitted.14:00 US Eastern cutoff controls announcements, not journal-review acceptance.",
+      "fit": "Useful public preprint route; moderated and not peer reviewed. cs.CR likely relevant; cross-listing subject to moderation.",
+      "domains": [
+        "ai",
+        "ml",
+        "data-science",
+        "cybersecurity",
+        "applied-ai"
+      ],
+      "checked_on": "2026-10-06",
+      "status": "rolling",
+      "deadline_time": null,
+      "deadline_zone": null,
+      "registration_date": null,
+      "registration_time": null,
+      "registration_zone": null
+    },
+    {
+      "id": "neurips",
+      "publisher": "NeurIPS",
+      "name": "NeurIPS main conference 2026",
+      "kind": "conference",
+      "edition": 2026,
+      "date": "2026-05-06",
+      "deadline_time": null,
+      "deadline_zone": "AoE (UTC-12)",
+      "cutoff_utc": null,
+      "timezone": "AoE (UTC-12) · clock time not stated",
+      "registration": "4 May 2026",
+      "registration_date": "2026-05-04",
+      "registration_time": null,
+      "registration_zone": "AoE (UTC-12)",
+      "registration_label": "Abstract registration",
+      "registration_timezone": "AoE (UTC-12)",
+      "registration_cutoff_utc": null,
+      "next_cycle": "2027 main-paper dates not announced in checked sources.",
+      "status": "closed",
+      "checked_on": "2026-10-06",
+      "domains": [
+        "ai",
+        "ml",
+        "data-science"
+      ],
+      "url": "https://neurips.cc/Conferences/2026/CallForPapers",
+      "source": "https://neurips.cc/Conferences/2026/CallForPapers",
+      "guidelines": "https://neurips.cc/Conferences/2026/MainTrackHandbook",
+      "templates": [
+        {
+          "label": "Official NeurIPS 2026 LaTeX ZIP ↗",
+          "url": "https://media.neurips.cc/Conferences/NeurIPS2026/Formatting_Instructions_For_NeurIPS_2026.zip"
+        }
+      ],
+      "format": "Official NeurIPS 2026 LaTeX style · anonymous main-track submission",
+      "length": "9 main-text pages; references, technical appendices and checklist additional. Accepted main text: 10 pages.",
+      "download_status": "Official template links verified; use the style for the edition being submitted.",
+      "notes": "Closed as of 6 October 2026. Official checked CFP and dates page specify AoE but no clock time. 2027 submission deadline was not found on checked official sources. October workshop, attendance and competition deadlines are not main-paper opportunities. All authors need an OpenReview profile at submission.",
+      "fit": "Conditional: emphasize general temporal graph-learning or continual-learning methodology and sound validation, rather than only a security application. Fit assessment is an inference."
+    },
+    {
+      "id": "icml",
+      "publisher": "ICML",
+      "name": "ICML main conference 2026",
+      "kind": "conference",
+      "edition": 2026,
+      "date": "2026-01-28",
+      "deadline_time": null,
+      "deadline_zone": "AoE (UTC-12)",
+      "cutoff_utc": "2026-01-29T12:00:00Z",
+      "timezone": "AoE (UTC-12)",
+      "registration": "23 Jan 2026",
+      "registration_date": "2026-01-23",
+      "registration_time": null,
+      "registration_zone": "AoE (UTC-12)",
+      "registration_label": "Abstract registration",
+      "registration_timezone": "AoE (UTC-12)",
+      "registration_cutoff_utc": "2026-01-24T12:00:00Z",
+      "next_cycle": "2027 main-paper dates not announced in checked sources.",
+      "status": "closed",
+      "checked_on": "2026-10-06",
+      "domains": [
+        "ai",
+        "ml",
+        "data-science"
+      ],
+      "url": "https://icml.cc/Conferences/2026/CallForPapers",
+      "source": "https://icml.cc/Conferences/2026/CallForPapers",
+      "guidelines": "https://icml.cc/Conferences/2026/AuthorInstructions",
+      "templates": [
+        {
+          "label": "Official ICML 2026 LaTeX ZIP ↗",
+          "url": "https://media.icml.cc/Conferences/ICML2026/Styles/icml2026.zip"
+        },
+        {
+          "label": "Official example paper PDF ↗",
+          "url": "https://media.icml.cc/Conferences/ICML2026/Styles/example_paper.pdf"
+        }
+      ],
+      "format": "Official ICML 2026 LaTeX style · anonymous main-track submission",
+      "length": "8 main-text pages; references and appendices additional in one PDF. Accepted main text: 9 pages.",
+      "download_status": "Official template links verified; use the style for the edition being submitted.",
+      "notes": "Closed as of 6 October 2026. The 2026 CFP explicitly gives next-day noon UTC equivalents. Future Meetings lists South America for 2027 but no submission timetable; no official 2027 CFP was located. Suggested OpenReview account creation by 8 January 2026.",
+      "fit": "Conditional: suitable for an original learning-method contribution with broad ML relevance and convincing temporal/continual ablations. Fit assessment is an inference."
+    },
+    {
+      "id": "iclr",
+      "publisher": "ICLR",
+      "name": "ICLR main conference 2027",
+      "kind": "conference",
+      "edition": 2027,
+      "date": "2026-09-25",
+      "deadline_time": "23:59",
+      "deadline_zone": "AoE (UTC-12)",
+      "cutoff_utc": null,
+      "timezone": "23:59 · AoE (UTC-12)",
+      "registration": "18 Sep 2026",
+      "registration_date": "2026-09-18",
+      "registration_time": null,
+      "registration_zone": "AoE (UTC-12)",
+      "registration_label": "Abstract registration",
+      "registration_timezone": "AoE (UTC-12)",
+      "registration_cutoff_utc": null,
+      "next_cycle": "2028 main-paper dates not announced in checked sources.",
+      "status": "closed",
+      "checked_on": "2026-10-06",
+      "domains": [
+        "ai",
+        "ml",
+        "data-science"
+      ],
+      "url": "https://iclr.cc/Conferences/2027/CallForPapers",
+      "source": "https://iclr.cc/Conferences/2027/CallForPapers",
+      "guidelines": "https://iclr.cc/Conferences/2027/AuthorGuidelines",
+      "templates": [
+        {
+          "label": "Official ICLR 2027 LaTeX ZIP ↗",
+          "url": "https://media.iclr.cc/Conferences/ICLR2027/iclr-2027-style-files.zip"
+        }
+      ],
+      "format": "Official ICLR 2027 LaTeX style · anonymous main-track submission",
+      "length": "9 main-text pages at initial submission; 10 during rebuttal/camera-ready. References and appendices additional.",
+      "download_status": "Official template links verified; use the style for the edition being submitted.",
+      "notes": "Closed as of 6 October 2026. November discussion and December decisions do not accept new papers. The 9 October 2026 deadline is for workshop-organizer proposals, not main-conference research papers. All authors need OpenReview profiles; new noninstitutional-email profiles can take up to two weeks.",
+      "fit": "Strong topical match for learning on graphs and lifelong learning, conditional on a substantive method contribution. Fit assessment is an inference, not an acceptance prediction."
+    },
+    {
+      "id": "aaai",
+      "publisher": "AAAI",
+      "name": "AAAI Main Technical Track 2027",
+      "kind": "conference",
+      "edition": 2027,
+      "date": "2026-07-28",
+      "deadline_time": "23:59",
+      "deadline_zone": "AoE (UTC-12)",
+      "cutoff_utc": null,
+      "timezone": "23:59 · AoE (UTC-12)",
+      "registration": "21 Jul 2026",
+      "registration_date": "2026-07-21",
+      "registration_time": "23:59",
+      "registration_zone": "AoE (UTC-12)",
+      "registration_label": "Abstract registration",
+      "registration_timezone": "AoE (UTC-12)",
+      "registration_cutoff_utc": null,
+      "next_cycle": "2028 main-paper dates not announced in checked sources.",
+      "status": "closed",
+      "checked_on": "2026-10-06",
+      "domains": [
+        "ai",
+        "ml",
+        "data-science",
+        "applied-ai"
+      ],
+      "url": "https://aaai.org/conference/aaai/aaai-27/main-technical-track-call/",
+      "source": "https://aaai.org/conference/aaai/aaai-27/main-technical-track-call/",
+      "guidelines": "https://aaai.org/conference/aaai/aaai-27/submission-instructions/",
+      "templates": [
+        {
+          "label": "Official instructions with AAAI-27 Author Kit link ↗",
+          "url": "https://aaai.org/conference/aaai/aaai-27/submission-instructions/"
+        }
+      ],
+      "format": "AAAI-27 Author Kit · anonymous main technical track",
+      "length": "7 pages of content, maximum 9-page main PDF; pages 8–9 references only. Optional supporting document is separate.",
+      "download_status": "Official template links verified; use the style for the edition being submitted.",
+      "notes": "Closed as of 6 October 2026. October feedback, November acceptance and December camera-ready dates are review/publication steps, not new-paper deadlines. Next Main Technical Track cycle not announced in checked official sources. OpenReview author registration precedes abstract/paper submission.",
+      "fit": "Conditional: AI-method or principled empirical contribution; security is an application area. Broad relevance, novelty, reproducibility and strong baselines matter. Fit assessment is an inference."
+    },
+    {
+      "id": "jmlr",
+      "publisher": "JMLR",
+      "name": "Journal of Machine Learning Research",
+      "kind": "journal",
+      "edition": null,
+      "date": null,
+      "deadline_time": null,
+      "deadline_zone": "",
+      "cutoff_utc": null,
+      "timezone": "No fixed submission cutoff",
+      "registration": null,
+      "registration_date": null,
+      "registration_time": null,
+      "registration_zone": "",
+      "registration_label": "Abstract registration",
+      "registration_timezone": "",
+      "registration_cutoff_utc": null,
+      "next_cycle": null,
+      "status": "rolling",
+      "checked_on": "2026-10-06",
+      "domains": [
+        "ai",
+        "ml",
+        "data-science"
+      ],
+      "url": "https://jmlr.org/author-info.html",
+      "source": "https://jmlr.org/author-info.html",
+      "guidelines": "https://jmlr.org/author-info.html",
+      "templates": [
+        {
+          "label": "Official JMLR style repository ↗",
+          "url": "https://github.com/JmlrOrg/jmlr-style-file"
+        },
+        {
+          "label": "JMLR formatting instructions ↗",
+          "url": "https://jmlr.org/format/format.html"
+        },
+        {
+          "label": "Official jmlr2e.sty ↗",
+          "url": "https://raw.githubusercontent.com/JmlrOrg/jmlr-style-file/master/jmlr2e.sty"
+        },
+        {
+          "label": "Official sample.tex ↗",
+          "url": "https://raw.githubusercontent.com/JmlrOrg/jmlr-style-file/master/sample.tex"
+        }
+      ],
+      "format": "Required JMLR jmlr2e LaTeX style · official style repository",
+      "length": "Concise and complete; over 35 pages can delay review or lead to rejection if reviewers cannot be found; over 50 pages require cover-letter justification and may be desk-rejected. Counts include appendices.",
+      "download_status": "Official template links verified; use the style for the edition being submitted.",
+      "notes": "Regular journal submission procedure has no stated calendar deadline; classified as rolling. Use the required JMLR LaTeX style. Register in the journal's own manuscript system when submitting.",
+      "fit": "Conditional and demanding: JMLR explicitly does not publish applications of ML to other domains. A security-only TGNN application is unsuitable; a general ML method/theory/insight contribution may fit."
+    }
+  ]
+}
